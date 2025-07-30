@@ -1,0 +1,26 @@
+{
+  "name": "@frontend/portal",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "backend": "workspace:*",
+    "nuxt": "catalog:",
+    "vue": "catalog:",
+    "vue-router": "catalog:"
+  },
+  "devDependencies": {
+    "@packages/eslint-config": "workspace:*",
+    "@packages/nuxt-build-tools": "workspace:*",
+    "eslint": "catalog:",
+    "typescript": "^5.8.3",
+    "vue-tsc": "^3.0.2"
+  }
+}

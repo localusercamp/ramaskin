@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "backend",
+			"path": "backend"
+		},
+		{
+			"name": "portal",
+			"path": "frontend/portal"
+		},
+		{
+			"name": "eslint-config",
+			"path": "packages/eslint-config"
+		},
+		{
+			"path": ".",
+			"name": "root"
+		}
+	],
+	"settings": {}
+}
