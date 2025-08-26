@@ -4,7 +4,7 @@
   "type": "module",
   "main": "index.ts",
   "scripts": {
-    "dev": "listhen -w --open ./app/infrastructure/transport/server.ts",
+    "dev": "listhen -w --open ./app/infrastructure/transport/server.ts --port 3030",
     "lint": "eslint ."
   },
   "dependencies": {

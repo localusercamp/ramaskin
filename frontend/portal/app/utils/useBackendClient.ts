@@ -3,7 +3,7 @@ import type { Router } from "backend";
 
 const client = createTRPCClient<Router>({
     links: [
-        httpLink({ url: "http://localhost:3001/rpc" }),
+        httpLink({ url: "http://localhost:3030/rpc" }),
     ],
 });
 
