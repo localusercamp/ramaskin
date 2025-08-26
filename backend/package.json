@@ -4,20 +4,19 @@
   "type": "module",
   "main": "index.ts",
   "scripts": {
-    "build": "nitro build",
-    "dev": "nitro dev",
-    "prepare": "nitro prepare",
-    "preview": "node .output/server/index.mjs",
-    "postinstall": "nitro prepare",
+    "dev": "listhen -w --open ./app/infrastructure/transport/server.ts",
     "lint": "eslint ."
   },
   "dependencies": {
-    "zod": "^4.0.5"
+    "@orpc/server": "catalog:",
+    "@trpc/server": "^11.5.0",
+    "h3": "beta",
+    "listhen": "latest",
+    "zod": "catalog:"
   },
   "devDependencies": {
     "@packages/eslint-config": "workspace:*",
     "eslint": "^9.31.0",
-    "nitropack": "latest",
     "typescript": "^5.8.3"
   }
 }

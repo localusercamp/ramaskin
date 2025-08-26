@@ -2,6 +2,12 @@ import type { NuxtConfig } from "nuxt/config";
 
 function getNuxtAppBaseConfig(): NuxtConfig {
     return {
+        components: true,
+    
+        imports: {
+            scan: true,
+        },
+
         dir: {
             pages: "routes",
         },
