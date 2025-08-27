@@ -1,1 +1,1 @@
-export type { Router } from "./app/infrastructure/transport/trpc/router";
+export type { Router } from "./infrastructure/transport/trpc/router";
