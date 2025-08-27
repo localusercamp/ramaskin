@@ -9,7 +9,9 @@ app.options("/rpc/**", async (event) => {
     event.res.headers.set("Access-Control-Allow-Origin", "*");
     event.res.headers.set("Access-Control-Allow-Methods", "*");
     event.res.headers.set("Access-Control-Allow-Headers", "*");
+    
     event.res.status = 204;
+
     return;
 });
 
@@ -22,6 +24,7 @@ app.all("/rpc/**", async (event) => {
         endpoint: "/rpc",
         req: event.req,
         router,
+        allowBatching: false,
         createContext,
     });
 });
