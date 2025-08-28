@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "description": "Rick And Morty API Skin",
   "scripts": {
+    "bd": "pnpm -F backend dev",
+    "fpd": "pnpm -F @frontend/portal dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
