@@ -11,8 +11,7 @@
         "lint": "eslint ."
     },
     "dependencies": {
-        "@orpc/client": "catalog:",
-        "@trpc/client": "^11.5.0",
+        "@trpc/client": "catalog:",
         "backend": "workspace:*",
         "nuxt": "catalog:",
         "vue": "catalog:",
@@ -22,8 +21,8 @@
         "@packages/eslint-config": "workspace:*",
         "@packages/nuxt-build-tools": "workspace:*",
         "eslint": "catalog:",
-        "typescript": "^5.8.3",
-        "vue-tsc": "^3.0.2"
+        "typescript": "catalog:",
+        "vue-tsc": "catalog:"
     },
     "engines": {
         "node": "22.18.0"

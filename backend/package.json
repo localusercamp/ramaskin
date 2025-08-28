@@ -8,15 +8,14 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@orpc/server": "catalog:",
-    "@trpc/server": "^11.5.0",
+    "@trpc/server": "catalog:",
     "h3": "beta",
     "listhen": "latest",
     "zod": "catalog:"
   },
   "devDependencies": {
     "@packages/eslint-config": "workspace:*",
-    "eslint": "^9.31.0",
-    "typescript": "^5.8.3"
+    "eslint": "catalog:",
+    "typescript": "catalog:"
   }
 }
