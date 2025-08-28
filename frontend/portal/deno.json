@@ -1,0 +1,16 @@
+{
+    "name": "@frontend/portal",
+    "version": "0.1.0",
+    "tasks": {
+        "dev": "deno --allow-sys --allow-env --allow-read --allow-write --allow-net --allow-run npm:nuxt dev",
+        "postinstall": "deno --allow-sys --allow-env --allow-read --allow-write --allow-net --allow-ffi --allow-run npm:nuxt prepare"
+    },
+    "imports": {
+        "@trpc/client": "npm:@trpc/client@~11.5.0",
+        "eslint": "npm:eslint@~9.31.0",
+        "nuxt": "npm:nuxt@~4.0.3",
+        "vue-router": "npm:vue-router@~4.5.1",
+        "vue-tsc": "npm:vue-tsc@~3.0.2",
+        "vue": "npm:vue@~3.5.17"
+    }
+}

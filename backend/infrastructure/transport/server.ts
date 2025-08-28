@@ -1,7 +1,7 @@
 import { H3, toNodeHandler } from "h3";
 import { fetchRequestHandler } from "@trpc/server/adapters/fetch";
-import { createContext } from "./trpc/context";
-import { router } from "./trpc/router";
+import { createContext } from "./trpc/context.ts";
+import { router } from "./trpc/router.ts";
 
 const app = new H3();
 

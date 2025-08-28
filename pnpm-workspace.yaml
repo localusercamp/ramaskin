@@ -10,7 +10,4 @@ catalog:
 
   "zod": ^4.0.5
 
-  "@orpc/server": ~1.8.5
-  "@orpc/client": ~1.8.5
-
   "eslint": ^9.31.0

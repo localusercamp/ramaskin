@@ -1,7 +1,7 @@
-import { mergeRouters } from "./trpc";
+import { mergeRouters } from "./trpc.ts";
 
-import { router as pingPongRouter } from "./routers/ping-pong";
-import { router as parametrizedRouter } from "./routers/parametrized";
+import { router as pingPongRouter } from "./routers/ping-pong/index.ts";
+import { router as parametrizedRouter } from "./routers/parametrized/index.ts";
 
 export const router = mergeRouters(pingPongRouter, parametrizedRouter);
 

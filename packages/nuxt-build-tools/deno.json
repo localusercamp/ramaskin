@@ -1,0 +1,6 @@
+{
+    "name": "@packages/nuxt-build-tools",
+    "imports": {
+		"nuxt": "npm:nuxt@~4.0.3"
+    }
+}

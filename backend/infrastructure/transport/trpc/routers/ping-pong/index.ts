@@ -1,7 +1,7 @@
-import { defineRouter } from "../../trpc";
+import { defineRouter } from "../../trpc.ts";
 
-import { ping } from "./ping";
-import { pong } from "./pong";
+import { ping } from "./ping/index.ts";
+import { pong } from "./pong/index.ts";
 
 export const router = defineRouter({
     ping,

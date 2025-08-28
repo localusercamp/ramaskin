@@ -1,0 +1,12 @@
+{
+    "name": "backend",
+    "version": "0.1.0",
+    "imports": {
+        "@trpc/server": "npm:@trpc/server@~11.5.0",
+        "eslint": "npm:eslint@~9.31.0",
+        "h3": "npm:h3@beta",
+        "listhen": "npm:listhen@latest",
+        "zod": "npm:zod@~4.0.5"
+    },
+    "exports": "./index.ts"
+}

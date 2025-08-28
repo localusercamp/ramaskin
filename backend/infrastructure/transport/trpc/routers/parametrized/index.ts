@@ -1,4 +1,4 @@
-import { defineRouter, procedure } from "../../trpc";
+import { defineRouter, procedure } from "../../trpc.ts";
 import { z } from "zod";
 
 export const router = defineRouter({

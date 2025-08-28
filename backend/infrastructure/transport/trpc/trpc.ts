@@ -1,5 +1,5 @@
 import { initTRPC } from "@trpc/server";
-import type { Context } from "./context";
+import type { Context } from "./context.ts";
 // import { transformer } from "~/utils/transformer";
 
 

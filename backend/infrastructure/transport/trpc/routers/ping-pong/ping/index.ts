@@ -1,4 +1,4 @@
-import { procedure } from "../../../trpc";
+import { procedure } from "../../../trpc.ts";
 
 export const ping = procedure
     .query(async () => {
