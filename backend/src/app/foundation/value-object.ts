@@ -1,4 +1,4 @@
-abstract class ValueObject <T> {
+export abstract class ValueObject <T> {
     private $value: T;
 
     constructor(value: T) {
@@ -9,7 +9,9 @@ abstract class ValueObject <T> {
         }
 
         this.$value = value;
-    }    
+    }
+
+
 
     public get value(): T {
         return this.$value;
@@ -25,8 +27,8 @@ abstract class ValueObject <T> {
         this.$value = value;
     }
 
-    
-    
+
+
     /**
      * Validate value.
      */
@@ -44,14 +46,10 @@ abstract class ValueObject <T> {
 
 
 
-class ValueObjectError extends TypeError {
+export class ValueObjectError extends TypeError {
     override name: string = this.constructor.name;
 }
 
 
 
-export {
-    ValueObject,
-
-    ValueObjectError,
-};
+export type Value <T> = T extends ValueObject<infer V> ? V : T;

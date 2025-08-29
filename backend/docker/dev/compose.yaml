@@ -1,0 +1,19 @@
+services:
+    ramaskin-postgresql:
+        image: postgres:17.6-alpine
+        restart: always
+        volumes:
+            - ramaskin-postgresql-storage:/var/lib/postgresql
+        ports:
+            - 5555:5432
+        # networks:
+        #     - ramaskin-backend
+        environment:
+            POSTGRES_USER: ramaskin
+            POSTGRES_PASSWORD: ramaskin
+            POSTGRES_DB: ramaskin
+volumes:
+    ramaskin-postgresql-storage:
+# networks:
+#     ramaskin-backend:
+#         driver: bridge

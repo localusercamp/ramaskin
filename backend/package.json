@@ -9,12 +9,17 @@
   },
   "dependencies": {
     "@trpc/server": "catalog:",
+    "dotenv": "^17.2.1",
+    "drizzle-orm": "^0.44.5",
     "h3": "beta",
     "listhen": "latest",
+    "pg": "^8.16.3",
     "zod": "catalog:"
   },
   "devDependencies": {
     "@packages/eslint-config": "workspace:*",
+    "@types/node": "^24.3.0",
+    "@types/pg": "^8.15.5",
     "eslint": "catalog:",
     "typescript": "catalog:"
   }

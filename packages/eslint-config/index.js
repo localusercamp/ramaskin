@@ -22,6 +22,7 @@ export default defineConfigWithVueTs(
             "@stylistic/indent": ["error", 4],
             "@stylistic/no-multiple-empty-lines": ["warn", { max: 3 }],
             "@stylistic/eol-last": ["warn", "always"],
+            "@stylistic/no-trailing-spaces": ["warn"],
 
             "vue/multi-word-component-names": "off",
             "vue/html-indent": ["error", 4],
